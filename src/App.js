@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import ListContainer from "./components/container/listContainer";
+import DisplaySearch from "./components/container/displaysearch";
 import Header from "./components/presentation/header";
 
 class App extends Component {
@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <ListContainer />
+        <DisplaySearch />
       </div>
     );
   }

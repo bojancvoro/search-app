@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
     return (
         <div>
-            <h1>Ract Search</h1>
+            <h1>React real-time search</h1>
         </div>
     )
 }

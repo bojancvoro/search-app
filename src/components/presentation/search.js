@@ -1,8 +1,10 @@
 import React from "react";
 
-const Search = () => {
+const Search = (props) => {
     return (
-            <input name="input"></input>
+            <input 
+                name="input" placeholder="Search the list" onChange={props.handleSearch}>
+            </input>
     );
 }
 
